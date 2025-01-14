@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>JavaScript Practice</title>
+  </head>
+  <body>
+    <script>
+      // JavaScript For LOOP Continue  .code No-2,class no-10
+      /*Out-PUT-> 0 Submit     [button]
+                  1 Submit
+                  2 Submit
+                  3 Submit
+                  4 Submit
+                  5 Submit
+                  6 Submit
+                  7 Submit
+                  9 Submit
+                  */
+
+      var i;
+      for (i = 0; i < 10; i = i + 1) {
+        if (i == 5 || i == 8) {
+          continue;
+        }
+        document.write(i + "<button> Submit</button><br>");
+      }
+    </script>
+  </body>
+</html>
